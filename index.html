@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hermes Personal — 個人用Google連携</title><style>body{font:17px/1.8 system-ui,sans-serif;max-width:820px;margin:3rem auto;padding:0 1.2rem;color:#17212b}a{color:#0759ad}h1,h2{line-height:1.4}aside{background:#eef4f8;padding:1rem;border-radius:8px}</style></head><body><main>
+<h1>Hermes Personal</h1>
+<p>GitHubユーザー coastalb が本人用に運用する、Hermes AgentとGoogleサービスの連携です。一般向けの登録サービスではありません。Google、GitHub、Nous Researchの公式アプリではありません。</p>
+<h2>目的と機能</h2>
+<ul><li>Gmailから必要なメールを検索・参照し、要約や対応候補を作成します。</li><li>Googleカレンダーの予定を確認し、準備・予定の重複・期限を整理します。</li><li>Google Driveで本人が利用する資料を検索・参照します。</li><li>本人の承認を得た場合に限り、メール送信、予定の作成・変更、ファイルの作成・編集等を行います。</li></ul>
+<p>朝の定期報告では閲覧と提案のみを行い、メールの既読化・送信や予定変更は自動実行しません。</p>
+<h2>処理の仕組み</h2>
+<p>本人のGoogle OAuth認証によりGoogle APIへアクセスします。処理はクラウド上のHermes Agentで実行し、必要な情報を設定中のLLM提供経路（Nous Portalとその上流提供者）へ渡して解析する場合があります。結果は本人のDiscord DM等、本人が指定した経路へ送ります。</p>
+<aside>このWebサイトはアプリの説明用です。ここでGoogleへのログインやデータのアップロードは行いません。認証情報、メール、予定、Driveの資料をこのサイトや公開リポジトリに掲載しません。</aside>
+<p><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></p>
+<p>運用者・問い合わせ先：<a href="https://github.com/coastalb">coastalb（GitHubプロフィール）</a>。認証情報や個人データを公開Issue等へ投稿しないでください。</p>
+</main></body></html>
